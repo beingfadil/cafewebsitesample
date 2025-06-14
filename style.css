@@ -243,8 +243,7 @@ footer{
     width: 90%;
     margin-bottom: 20px;
   }
-}
-@media (max-width: 768px) {
+
   #home h1 {
     font-size: 2rem;
   }
@@ -254,8 +253,13 @@ footer{
     padding: 8px 16px;
   }
 
-  .home {
+  #home {
     padding: 0 20px;
     height: auto;
   }
+  .bgimage{
+    width: 100%;
+    background-size: cover;
+  }
+
 }
